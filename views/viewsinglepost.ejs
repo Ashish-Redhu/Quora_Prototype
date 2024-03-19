@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particular Post page</title>
+    <style>
+        .post{
+            background-color: black;
+            color: white;
+            margin: 15px;
+            padding: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Here is your post</h1>
+    <div class="post">
+        <h6>id: <%=post.userid%></h6>
+        <h1>Username: <%=post.authorname%></h1>
+        <p>Content: <%=post.content%></p>
+        
+    </div>
+    
+</body>
+</html>

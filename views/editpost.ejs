@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit post</title>
+    <link rel="stylesheet" href="/editpost.css">
+</head>
+<body>
+    <h1>Edit post: </h1>
+    <h4>id: <%=post.userid%></h4>
+    <hr>
+    <h2><%=post.authorname%></h2>
+
+    <form action="/posts/<%=post.userid%>?_method=PATCH" method="post">
+        <textarea name="content" id="content" cols="40" rows="10"><%=post.content%></textarea>
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
+
+
+<!-- ?_method=PATCH" This thing is main. -->

@@ -1,0 +1,32 @@
+form button{
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 10px;
+}
+form button:hover{
+    cursor: pointer;
+}
+
+.post{
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+}
+.post p{
+    font-size: large;
+}
+.post a{
+    margin:10px;
+}
+.post a button{
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px; 
+}
+.post a button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
